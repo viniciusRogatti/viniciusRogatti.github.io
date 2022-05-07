@@ -7,34 +7,36 @@
     font-family: 'Poppins', sans-serif;
     
 }
-
-body{
+img {
+    border-radius: 100%;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    flex-direction: row;
+    } 
+body{    
     min-height: 20vh;
-    background-color: #111111;
+    background-color: #111111;     
+}    
+.letreiroanimado{
+    display: flex;
+    flex-direction: row;
+          
 }
-
-.container{
-    display: inline-flex;
-}
-.container .estatico{
+.letreiroanimado .estatico{
     color: #fff;
     font-size: 60px;
     font-weight: 400;
 }
-.container .dinamico{
+.letreiroanimado .dinamico{
     margin-left: 15px;
     line-height: 90px;
     height: 90px;
     overflow: hidden;
 }
 .dinamico li{
+    
     color: #33ff00;
     list-style: none;
-    font-size: 60px;
-    font-weight: 500;
+    font-size: 60px;   
     left: 0;
     position: relative;
     top: 0;
@@ -57,6 +59,7 @@ body{
 }
 .dinamico li span{
     position: relative;
+    
 
 }
 @keyframes typing{
@@ -65,17 +68,3 @@ body{
        margin: 0 -35px 0 35px;
    } 
 }
-.conteiner {
-    position: top;
-  }
-  
-  #image {
-    position: absolute;
-  }
-  
-  #texto {
-    position: top;
-    font-size: 32px;
-    left: 250px;
-    top: 135px;
-  }
