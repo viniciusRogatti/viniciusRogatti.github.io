@@ -14,6 +14,7 @@ import { FiGithub, FiEye } from 'react-icons/fi'
 function Projects() {
   const [projects, setProjects] = useState(arrayOfProjects);
   const [filter, setFilter] = useState('all');
+  const [isSeeDetails, setIsSeeDetails] = useState(false);
   const carrousel = useRef(null);
 
   const { innerWidth: width } = window;
@@ -33,6 +34,10 @@ function Projects() {
       setFilter('all');
       return setProjects(arrayOfProjects);
     }
+  }
+
+  const handleClickSeeDetails = () => { 
+    setIsSeeDetails(!isSeeDetails);
   }
 
   const handleLeftClick = () => {
@@ -79,11 +84,12 @@ function Projects() {
           <Carrousel ref={ carrousel }>
 
             { projects.map(project => (
-              <CardProject key={`card-project-${project.id}`}>
+              <CardProject key={`card-project-${project.id}`} onClick={ handleClickSeeDetails }>
                 <img src={project.img} alt={`card-img-${project.id}`} />
                 <BoxHoverLayer
-                  initial={{opacity: 0}}
-                  whileHover={{ opacity: [0, 1] }}
+                  style={{ opacity: +isSeeDetails }}
+                  initial={{opacity: +isSeeDetails}}
+                  whileHover={{ opacity: [+isSeeDetails, 1] }}
                   transition={{duration: 0.4 , ease: "easeInOut"}}
                 >
                 <h1>{project.name}</h1>                  

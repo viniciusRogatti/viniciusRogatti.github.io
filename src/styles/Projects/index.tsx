@@ -7,7 +7,6 @@ const BoxProjects = styled(motion.div)`
   align-items: center;
   justify-content: center;
   max-height: 100vh;
-
 `;
 
 const BoxHoverLayer  = styled(motion.div)`
@@ -57,6 +56,8 @@ const CardProject = styled.div`
   position: relative;
   width: 45%; 
   height: 100%;
+  z-index: 2;
+  cursor: pointer;
 
   flex: none;
   img {
