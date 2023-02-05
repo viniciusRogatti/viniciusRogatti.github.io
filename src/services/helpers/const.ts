@@ -27,12 +27,14 @@ const navLinkVariants = {
 
 const moveVariants = {
   animation: {
-    y: [0, -15],
+    y: [0, -30, 0],
     transition: {
-      yoyo: Infinity,
-      duration: 2,
+      repeat: Infinity,
+      duration: 3,
       delay: 1,
+      ease: "easeIn"
     }
+
   }
 }
 

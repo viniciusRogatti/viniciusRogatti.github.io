@@ -3,7 +3,7 @@ import styled from "styled-components";
 
 export const BoxTitle = styled(motion.div)`
   text-align: center;
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
   
   &.skills {
     margin-bottom: 1rem;
