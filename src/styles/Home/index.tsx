@@ -11,6 +11,10 @@ const Container = styled(motion.section)`
   margin: 0 auto;
   background: ${props => props.theme.background};
   scroll-snap-align: start;
+
+  @media screen and (max-width: 400px) {
+    padding:5rem 1.5rem 0 1rem;
+  }
 `;
 
 const BoxInfo = styled.div`
@@ -26,7 +30,7 @@ const BoxInfo = styled.div`
     color: ${props => props.theme.secondaryColor};
     font-size: 3rem;
     @media screen and (max-width: 500px) {
-      font-size: 1.0rem;
+      font-size: 1.5rem;
     }
     span {
       color: ${props => props.theme.color};
@@ -36,7 +40,7 @@ const BoxInfo = styled.div`
   h4 {
     color: ${props => props.theme.color};
     opacity: 0.5;
-    font-size: 1.3rem;
+    font-size: 1rem;
   }
 
 `;

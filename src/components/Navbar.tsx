@@ -1,6 +1,5 @@
-import { CloseMenu, HeaderStyle, ImgProfile, Menu, MenuOpen, NavbarStyle, NavLinks } from '../styles/NavBar';
+import { CloseMenu, HeaderStyle, LogoMv, Menu, MenuOpen, NavbarStyle, NavLinks } from '../styles/NavBar';
 import SwitchTheme from './SwithTheme';
-import me from '../assets/images/me.jpeg';
 import SocialMedias from '../styles/SocialMedias';
 import { RiMenu3Line, RiCloseFill } from 'react-icons/ri';
 import { useState } from 'react';
@@ -15,7 +14,7 @@ function Navbar() {
 
       <NavbarStyle>
 
-        <ImgProfile src={me} alt="Profile-Pic" />
+        <LogoMv>Mv</LogoMv>
 
         <NavLinks>
           {navLinks.map((navlink, index) => (

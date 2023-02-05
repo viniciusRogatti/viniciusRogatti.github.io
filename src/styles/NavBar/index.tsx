@@ -5,13 +5,17 @@ const HeaderStyle = styled(motion.header)`
   position: fixed;
   max-width: 100vw;
   width: 100%;
-  height: 100px;
+  height: 7rem;
   top: 0;
   left: 0;
   z-index: 10;
   background: ${props => props.theme.background};
   color: ${props => props.theme.color};
   box-shadow: rgba(41, 41, 41, 0.342) 0px 30px 20px -1px;
+
+  @media screen and (max-width: 700px) {
+    height: 4.5rem;
+  }
 
   &.active {
     background: rgba(255,255,255,0.15);
@@ -35,12 +39,13 @@ const NavbarStyle = styled.div`
     justify-content: space-between;
     padding: 0.5rem;
   }
+
 `;
 
-const ImgProfile = styled.img`
-  width: 60px;
-  height: 60px;
-  border-radius: 50%;
+
+const LogoMv = styled.h3`
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 2.5rem;
 `;
 
 const NavLinks = styled.ul`
@@ -136,4 +141,4 @@ const MenuOpen = styled(motion.div)`
 `;
 
 
-export { HeaderStyle, NavbarStyle, ImgProfile, NavLinks, Menu, CloseMenu, MenuOpen };
+export { HeaderStyle, NavbarStyle, LogoMv, NavLinks, Menu, CloseMenu, MenuOpen };

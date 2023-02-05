@@ -6,7 +6,7 @@ const CommitBoxStyles = styled.div`
   padding: 20px;
   border-radius: 10px;
   width: fit-content;
-  max-width: 80%;
+  max-width: 90%;
   padding: 1rem;
   filter: hue-rotate(20deg);
 
