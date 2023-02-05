@@ -27,7 +27,7 @@ const navLinkVariants = {
 
 const moveVariants = {
   animation: {
-    y: [0, -30, 0],
+    y: [0, -25, 0],
     transition: {
       repeat: Infinity,
       duration: 3,

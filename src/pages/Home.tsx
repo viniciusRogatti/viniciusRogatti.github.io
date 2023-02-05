@@ -23,8 +23,6 @@ function Home() {
     fetchCommits();
   }, [])
 
-  console.log(commits)
-
   return (
     <Container
       initial={{ y: -15, opacity: 0 }}
