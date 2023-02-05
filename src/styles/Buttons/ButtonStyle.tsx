@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import styled from "styled-components";
 
 export const ButtonStyle = styled(motion.a)`
-  margin-top: 3rem;
+  margin-top: 2rem;
   text-decoration: none;
   color: ${props => props.theme.background};
   background: ${props => props.theme.color};

@@ -7,17 +7,10 @@ const Container = styled(motion.section)`
   align-items: center;
   min-height: 100vh;
   max-width:1224px;
-  padding:10rem 1.5rem 0 1rem;
+  padding:6.5rem 1.5rem 0 1rem;
   margin: 0 auto;
   background: ${props => props.theme.background};
   scroll-snap-align: start;
-`;
-
-const ImgProfile = styled.img`
-  width: 110px;
-  height: 110px;
-  border-radius: 50%;
-  object-fit: cover;
 `;
 
 const BoxInfo = styled.div`
@@ -33,7 +26,7 @@ const BoxInfo = styled.div`
     color: ${props => props.theme.secondaryColor};
     font-size: 3rem;
     @media screen and (max-width: 500px) {
-      font-size: 1.5rem;
+      font-size: 1.0rem;
     }
     span {
       color: ${props => props.theme.color};
@@ -57,13 +50,13 @@ const SpanInfo = styled.span`
 
 
   @media screen and (max-width: 800px) {
-    font-size: 3.5rem;
+    font-size: 2.5rem;
   }
 
   @media screen and (max-width: 400px) {
-    font-size: 2.5rem;
+    font-size: 1.5rem;
+    margin-top: 1rem;
   } 
 `;
 
-
-export { Container, ImgProfile, BoxInfo, SpanInfo };
+export { Container, BoxInfo, SpanInfo };
