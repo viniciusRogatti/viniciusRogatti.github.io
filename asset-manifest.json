@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/static/js/main.862e5e26.js",
+    "main.js": "/static/js/main.f78b3b1f.js",
     "static/media/solar-system.png": "/static/media/solar-system.9a6a6557a5b01cba4832.png",
     "static/media/trybe-tunes.png": "/static/media/trybe-tunes.8ddc0fb9da3fd079e1a7.png",
     "static/media/recipes-app.png": "/static/media/recipes-app.8518a6acfc35b83762c7.png",
@@ -32,9 +32,9 @@
     "static/media/moon-icon.svg": "/static/media/moon-icon.b8cc8d678254073bb347d1319be9cdbd.svg",
     "static/media/linkedin-3.svg": "/static/media/linkedin-3.27a3f479ca1bbb0ceef19e395081fb94.svg",
     "static/media/npm.svg": "/static/media/npm.29005d7ddce8440984ae24d105cbe678.svg",
-    "main.862e5e26.js.map": "/static/js/main.862e5e26.js.map"
+    "main.f78b3b1f.js.map": "/static/js/main.f78b3b1f.js.map"
   },
   "entrypoints": [
-    "static/js/main.862e5e26.js"
+    "static/js/main.f78b3b1f.js"
   ]
 }
