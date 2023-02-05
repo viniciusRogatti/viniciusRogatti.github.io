@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.js": "/static/js/main.6be8c64b.js",
+    "static/media/solar-system.png": "/static/media/solar-system.9a6a6557a5b01cba4832.png",
+    "static/media/trybe-tunes.png": "/static/media/trybe-tunes.8ddc0fb9da3fd079e1a7.png",
+    "static/media/recipes-app.png": "/static/media/recipes-app.8518a6acfc35b83762c7.png",
+    "static/media/Poppins-Medium.ttf": "/static/media/Poppins-Medium.673ed42382ab264e0bf5.ttf",
+    "static/media/card1.jpg": "/static/media/card1.bf83e44b4c8c924a0993.jpg",
+    "static/media/me.jpeg": "/static/media/me.15a73cbbb34fb88a62d9.jpeg",
+    "static/media/styled-components.png": "/static/media/styled-components.da090b22905ecd34b164.png",
+    "static/media/react-route.png": "/static/media/react-route.ba1f541ea388d788c7a8.png",
+    "static/media/docker.svg": "/static/media/docker.49a327bd1bcc83c897770d04ac92ca17.svg",
+    "static/media/jest.svg": "/static/media/jest.ea022b4c6e6a1c066cd42ec742c6ae33.svg",
+    "static/media/mySql.svg": "/static/media/mySql.58bc9cb1e003762a0ff3502d57e88010.svg",
+    "static/media/sequelize.svg": "/static/media/sequelize.4e45586615ee96c67473828270d109fd.svg",
+    "static/media/mocha.svg": "/static/media/mocha.ba0fbb44daedd239d10d2f0d72d8d8e7.svg",
+    "static/media/react.svg": "/static/media/react.da5c56a42c156e0265f37ef06bdb0497.svg",
+    "static/media/bash.svg": "/static/media/bash.cdfcf1e1991de8aacde13a7d78dd3151.svg",
+    "static/media/github-brands.svg": "/static/media/github-brands.e2f073269da5b56e82387b15c3b59f5a.svg",
+    "static/media/nodeJs.svg": "/static/media/nodeJs.e67aba1929262d19f18e90f780018ded.svg",
+    "static/media/redux.svg": "/static/media/redux.5353679041fbfc47f6cc5981910d4fa1.svg",
+    "static/media/sun-icon.svg": "/static/media/sun-icon.40feb403a267c48985a222a1f4d25ba6.svg",
+    "static/media/javaScript.svg": "/static/media/javaScript.2e3bbb99f5abecc3aacea0248c7ded04.svg",
+    "static/media/express.svg": "/static/media/express.e26e648fcac84fa9b6808faa7a091a4f.svg",
+    "static/media/typescript.svg": "/static/media/typescript.6877829e4e073aa3c3b169067e1d73a0.svg",
+    "static/media/css3.svg": "/static/media/css3.6d610559256c46adddfc4eedee7a4159.svg",
+    "static/media/nextJs.svg": "/static/media/nextJs.0e48d222503fa827b2a70675cac2ece1.svg",
+    "static/media/git.svg": "/static/media/git.54020a9631afbc85b485c0ad492320b6.svg",
+    "static/media/html5.svg": "/static/media/html5.2a4155c1a458215ffd26719ea9cc22da.svg",
+    "index.html": "/index.html",
+    "static/media/chevron-left-icon.svg": "/static/media/chevron-left-icon.7c66c4576e621ab1377a15fb956ec894.svg",
+    "static/media/moon-icon.svg": "/static/media/moon-icon.b8cc8d678254073bb347d1319be9cdbd.svg",
+    "static/media/linkedin-3.svg": "/static/media/linkedin-3.27a3f479ca1bbb0ceef19e395081fb94.svg",
+    "static/media/npm.svg": "/static/media/npm.29005d7ddce8440984ae24d105cbe678.svg",
+    "main.6be8c64b.js.map": "/static/js/main.6be8c64b.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.6be8c64b.js"
+  ]
+}
