@@ -9,8 +9,8 @@ export const Container = styled.section`
   background: ${props => props.theme.background};
   scroll-snap-align: start;
 
-  @media screen and (max-width: 500px) {
-    padding: 7rem 1rem 0 1rem;
+  @media screen and (max-width: 700px) {
+    padding: 5rem 1rem 0 1rem;
     max-width: 100vw;
   }
 `;

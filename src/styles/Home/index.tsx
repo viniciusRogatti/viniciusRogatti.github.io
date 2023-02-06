@@ -15,6 +15,7 @@ const Container = styled(motion.section)`
   @media screen and (max-width: 400px) {
     padding:5rem 1.5rem 0 1rem;
   }
+
 `;
 
 const BoxInfo = styled.div`
@@ -29,12 +30,23 @@ const BoxInfo = styled.div`
   h3 {
     color: ${props => props.theme.secondaryColor};
     font-size: 3rem;
+
+    @media screen and (max-width: 800px) {
+      font-size: 2rem;
+    }
+
     @media screen and (max-width: 500px) {
       font-size: 1.5rem;
     }
+
+    @media screen and (max-width: 400px) {
+      font-size: 1rem;
+    }
+
     span {
       color: ${props => props.theme.color};
     }
+
   }
 
   h4 {
@@ -57,7 +69,7 @@ const SpanInfo = styled.span`
     font-size: 2.5rem;
   }
 
-  @media screen and (max-width: 400px) {
+  @media screen and (max-width: 500px) {
     font-size: 1.5rem;
     margin-top: 1rem;
   } 

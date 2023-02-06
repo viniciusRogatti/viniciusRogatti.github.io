@@ -122,7 +122,7 @@ const MenuOpen = styled(motion.div)`
     width: 50px;
     height: 50px;
     position: absolute;
-    top: 1.5rem;
+    top: 0.5rem;
     right: 1rem;
   }
   li {
