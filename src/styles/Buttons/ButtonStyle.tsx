@@ -29,10 +29,4 @@ export const ButtonStyle = styled(motion.a)`
     text-transform: uppercase;
     margin-top: 0;
   }
-
-  &.about-button {
-    @media screen and (max-width: 700px) {
-      margin-left: 30%;
-    }
-  }
 `
