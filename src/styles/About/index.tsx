@@ -13,8 +13,8 @@ const ContainerAbout = styled.div`
 `;
 
 const BoxImage = styled(motion.div)`
-  max-width: 350px;
-  height: 350px;
+  max-width: 21.875rem;
+  height: 21.875rem;
   justify-self: center;
   border-radius: 12px;
   box-shadow:  5px 5px 100px #2d2d2d,
@@ -27,9 +27,14 @@ const BoxImage = styled(motion.div)`
     border-radius: 12px;
   }
 
+  @media screen and (max-width:500px) {
+    width: 15rem;
+    height: 15rem;
+  }
+
   @media screen and (max-width:400px) {
-    width: 200px;
-    height: 200px;
+    width: 10rem;
+    height: 10rem;
   }
 
 `;
