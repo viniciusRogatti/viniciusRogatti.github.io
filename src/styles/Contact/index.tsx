@@ -67,7 +67,7 @@ const BoxIcons = styled.div`
   margin-right: 1rem;
 `
 
-const BoxRight = styled(motion.div)`
+const BoxRight = styled(motion.form)`
   padding: 1rem;
   border-radius: 12px;
 `
@@ -103,7 +103,7 @@ const FormRow = styled.div`
     border-radius: 8px;   
     font-size: 0.95rem;
     resize: none;
-    min-height: 150px;
+    min-height: 8rem;
     background: ${props => props.theme.secondaryColor};
     color: ${props => props.theme.secondaryBackground};
 

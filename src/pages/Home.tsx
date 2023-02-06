@@ -19,6 +19,10 @@ function Home() {
     
   }
 
+  function handleButtonClick() {
+    window.location.assign("#contato");
+  }
+
   useEffect(() => {
     fetchCommits();
   }, [])
@@ -36,12 +40,12 @@ function Home() {
       id="inicio"
     >
       <BoxInfo>
-        <h3>Olá, eu sou <span>Marcos Vinicius</span> </h3>
+        <h3>Olá, eu sou o <span>Marcos Vinicius</span> </h3>
         <h4>Sou desenvolvedor Web</h4>
         <SpanInfo>Apaixonado<br /> por Tecnologia e <br/>Inovação</SpanInfo>
 
         <ButtonStyle
-          href="#contato"
+          onClick={handleButtonClick}
           whileHover={{ scale: 1.1 }}
           variants={moveVariants}
           animate="animation"

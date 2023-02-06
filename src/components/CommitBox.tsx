@@ -6,7 +6,7 @@ const CommitBox = ({ commits }: { commits: Array<any> }) => (
     <TitleStyles>Últimos Commits</TitleStyles>
     <CommitListStyles>
       { commits.map(({commit, date}, index) => index < 5 && (
-        <CommitStyles>
+        <CommitStyles key={`list-commit-id-${index}`}>
           <MessageStyles>{commit.message}</MessageStyles>
           <DateStyles>{formatDate(commit.author.date)}</DateStyles>
         </CommitStyles>

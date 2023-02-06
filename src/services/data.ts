@@ -69,11 +69,11 @@ export const navFilterCategory = [
     category: 'all',
   },
   {
-    key: 'nav-category-1',
+    key: 'nav-category-2',
     category: 'web',
   },
   {
-    key: 'nav-category-1',
+    key: 'nav-category-3',
     category: 'app',
   }
 ]
