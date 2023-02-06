@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import styled from "styled-components";
 
-export const ButtonStyle = styled(motion.a)`
+export const ButtonStyle = styled(motion.button)`
   margin-top: 2rem;
   text-decoration: none;
   color: ${props => props.theme.background};
@@ -12,6 +12,12 @@ export const ButtonStyle = styled(motion.a)`
   text-transform: capitalize;
   text-align: center;
   cursor: pointer;
+  border: none;
+
+  :disabled {
+    opacity: 0.3;
+    pointer-events: none;
+  }
 
   &.skills {
     margin-top: 0;
@@ -28,11 +34,6 @@ export const ButtonStyle = styled(motion.a)`
     font-weight: bold;
     text-transform: uppercase;
     margin-top: 0;
-  }
-
-  &.about-button {
-    @media screen and (max-width: 700px) {
-      margin-left: 30%;
-    }
+    padding: 0.75rem 2rem;
   }
 `

@@ -66,7 +66,7 @@ function Projects() {
         >
           {navFilterCategory.map(fil => (
             <ButtonStyle
-              key={`projects-filter-${fil.key}`}
+              key={fil.key}
               id={fil.category}
               onClick={() => handleClick(fil.category)}
               className={ filter === fil.category ? 'active' : ''}
@@ -84,8 +84,8 @@ function Projects() {
           <Carrousel ref={ carrousel }>
 
             { projects.map(project => (
-              <CardProject key={`card-project-${project.id}`} onClick={ handleClickSeeDetails }>
-                <img src={project.img} alt={`card-img-${project.id}`} />
+              <CardProject key={project.id} onClick={ handleClickSeeDetails }>
+                <img src={project.img} alt={`card-img-${project.name}`} />
                 <BoxHoverLayer
                   style={{ opacity: +isSeeDetails }}
                   initial={{opacity: +isSeeDetails}}

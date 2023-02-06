@@ -4,16 +4,17 @@ import styled from "styled-components";
 const ContainerAbout = styled.div`
   display: grid;
   grid-template-columns: repeat(2,1fr);
-  place-items: center;
   position: relative;
 
   @media screen and (max-width: 850px) {
     grid-template-columns: 1fr;
+    place-items: top;
   }
 `;
 
 const BoxImage = styled(motion.div)`
   max-width: 21.875rem;
+  margin-top: 1.5rem;
   height: 21.875rem;
   justify-self: center;
   border-radius: 12px;
@@ -27,12 +28,13 @@ const BoxImage = styled(motion.div)`
     border-radius: 12px;
   }
 
-  @media screen and (max-width:500px) {
+  @media screen and (max-width:850px) {
+    margin-top: 0;
     width: 15rem;
     height: 15rem;
   }
 
-  @media screen and (max-width:400px) {
+  @media screen and (max-width:500px) {
     width: 10rem;
     height: 10rem;
   }
@@ -40,16 +42,13 @@ const BoxImage = styled(motion.div)`
 `;
 
 const BoxAbout = styled(motion.div)`
+  display: flex;
   flex-direction: column;
+  align-items: center;
   color: ${props => props.theme.secondaryColor};
   padding: 1rem;
 
   @media screen and (max-width:850px) {
-    padding: 0;
-    margin-top: 4rem;
-  }
-
-  @media screen and (max-width:400px) {
     padding: 0;
     margin-top: 1rem;
   }
@@ -57,7 +56,11 @@ const BoxAbout = styled(motion.div)`
   p {
     font-size: 0.85rem;
     margin-bottom: 1rem;
-    max-width: 300px;
+    text-align: center;
+
+    @media screen and (max-width:700px) {
+      font-size: 0.45rem;
+    }
   }
   
 `

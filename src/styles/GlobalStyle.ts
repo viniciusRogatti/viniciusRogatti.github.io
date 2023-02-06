@@ -1,14 +1,6 @@
 import {createGlobalStyle} from "styled-components"
-import PoppinsFont from '../Font/Poppins-Medium.ttf'
 
 const GlobalStyled = createGlobalStyle`
-
-@font-face {
-  font-family: "Poppins";
-  src: url(../Font/Poppins-Medium.ttf),
-  url(${PoppinsFont}) format('truetype');
-}
-
 :root {
   --blue: #72a5ae;
   --black: #131212;

@@ -3,6 +3,7 @@ import styled from "styled-components";
 
 export const BoxTitle = styled(motion.div)`
   text-align: center;
+  margin-top: 1rem;
 
   @media screen and (min-width: 1300px) {
     margin: 5rem 0 2rem;
