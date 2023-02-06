@@ -9,11 +9,6 @@ const CommitBoxStyles = styled.div`
   max-width: 90%;
   padding: 1rem;
   filter: hue-rotate(20deg);
-
-  @media screen and (max-width: 700px) {
-    display: flex;
-    flex-direction: column;
-  }
 `
 
 const TitleStyles = styled.div`
@@ -26,6 +21,7 @@ const TitleStyles = styled.div`
 
   @media screen and (max-width: 700px) {
     font-size: 0.8rem;
+    margin-bottom: 0.5rem;
   }
 `
 
@@ -46,6 +42,7 @@ const CommitStyles = styled.div`
 
   @media screen and (max-width: 700px) {
     gap: 0.3rem;
+    margin-bottom: 0.2rem;
   }
 `
 
