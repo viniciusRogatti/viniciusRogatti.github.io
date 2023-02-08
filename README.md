@@ -13,13 +13,15 @@ Este é meu portfólio desenvolvido com as seguintes tecnologias avançadas:
 
 - React Icons: pacote de ícones baseado em React, utilizado para adicionar ícones elegantes e consistentes ao site.
 
+- EmailJS: ferramenta para envio de e-mails, integrada na página de contato para permitir que os visitantes possam enviar feedbacks e mensagens diretamente para o meu email.
+
 ## Páginas
 
-1. Início: apresenta uma visão geral do site, incluindo uma breve descrição sobre mim e as minhas habilidades.
+1. Início: uma breve mensagem de boas-vindas, com um botão para levar a pessoa até a página de contato e um "terminal" com meus últimos 5 commits no projeto.
 
-2. Sobre: fornece uma visão aprofundada sobre mim, incluindo informações detalhadas sobre minhas habilidades e experiência, além de contatos e opções para baixar meu currículo.
+2. Sobre: fornece uma visão aprofundada sobre mim, incluindo informações detalhadas sobre minhas habilidades e experiência, além de contatos e um botão para baixar meu currículo.
 
-3. Skills: apresenta as minhas habilidades adquiridas como aluno da Trybe, exibidas em forma de cards interativos. Além disso, possui botões de filtro para classificar as habilidades como todas, front-end ou back-end.
+3. Skills: apresenta as minhas habilidades adquiridas como aluno da Trybe, exibidas em forma de cards. Além disso, possui botões de filtro para classificar as habilidades como todas, front-end ou back-end.
 
 4. Projetos: apresenta um carrossel interativo com meus projetos, incluindo descrições detalhadas sobre cada um deles. Além disso, possui botões de filtro para classificar os projetos como todos, web ou app.
 
