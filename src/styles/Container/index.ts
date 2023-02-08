@@ -8,6 +8,7 @@ export const Container = styled.section`
   padding: 7rem 1.5rem 0 1.5rem;
   background: ${props => props.theme.background};
   scroll-snap-align: start;
+  overflow-x: hidden;
 
   @media screen and (max-width: 700px) {
     padding: 5rem 1rem 0 1rem;

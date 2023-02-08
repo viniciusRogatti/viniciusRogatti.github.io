@@ -50,7 +50,7 @@ function Contact() {
         <BoxLeft
           initial={{x: 0, opacity: 0}}
           whileInView={{ x: [-150,0], opacity: 1 }}
-          transition={{duration: 1}}
+          transition={{duration: 1, delay: 0.5}}
         >
           <TitleBox>Como me encontrar?</TitleBox>
           {arrayOfcontacts.map((contact) => (
@@ -67,7 +67,7 @@ function Contact() {
         <BoxRight
           initial={{x: 0, opacity: 0}}
           whileInView={{ x: [150,0], opacity: 1 }}
-          transition={{duration: 1}}
+          transition={{duration: 1, delay: 0.5}}
           onSubmit={ submitFeedback }
         >
           <TitleBox>Deixe seu feedback</TitleBox>

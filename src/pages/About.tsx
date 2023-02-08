@@ -31,8 +31,8 @@ const About = () => {
 
         <BoxImage
           initial={{ x: 0, opacity: 0 }}
-          whileInView={{ x: [-150, 0], opacity: 1 }}
-          transition={{ duration: 1 }}
+          whileInView={{ x: [-150, 0], opacity: [0, 1] }}
+          transition={{ duration: 1, delay: 0.5 }}
         >
           <motion.img
             src={me}
@@ -43,8 +43,8 @@ const About = () => {
 
         <BoxAbout
           initial={{ x: 0, opacity: 0 }}
-          whileInView={{ x: [150, 0], opacity: 1 }}
-          transition={{ duration: 1 }}
+          whileInView={{ x: [150, 0], opacity: [0, 1] }}
+          transition={{ duration: 1, delay: 0.5 }}
         >
           <p>Com um background na logística, contribuí para mudanças significativas no setor de separação e organização de cargas em uma transportadora. Isso despertou em mim uma constante busca por melhorias nos processos. Inspirado por essa paixão, passei a pesquisar soluções eficientes e inovadoras e isso me levou a descobrir a tecnologia, o que me levou a conhecer a Trybe. Decidi então fazer uma transição de carreira e hoje sou um aluno da Trybe, tendo concluído os módulos de fundamentos, front-end e atualmente progredindo no back-end. Estou ansioso por aplicar meus conhecimentos adquiridos para soluções impactantes e inovadoras no mercado</p>
 
@@ -72,4 +72,4 @@ const About = () => {
   )
 }
 
-export default About
+export default About;

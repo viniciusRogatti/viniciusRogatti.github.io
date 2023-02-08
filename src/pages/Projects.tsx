@@ -4,12 +4,12 @@ import { navFilterCategory } from '../services/data';
 import { ButtonStyle } from '../styles/Buttons/ButtonStyle';
 import { arrayOfProjects } from '../services/data';
 import { Container } from '../styles/Container';
-import { BoxHoverLayer, BoxIconsHover, BoxProjects, CardProject } from '../styles/Projects'
+import { BoxHoverLayer, BoxIconsHover, BoxProjects, CardProject } from '../styles/Projects';
 import { BoxButtons } from '../styles/Skills';
 import { ChevronLeftIcon } from '../styles/icons';
 import { BoxCarrousel, Carrousel } from '../styles/Carrousel';
-import { motion } from 'framer-motion'
-import { FiGithub, FiEye } from 'react-icons/fi'
+import { motion } from 'framer-motion';
+import { FiGithub, FiEye } from 'react-icons/fi';
 
 function Projects() {
   const [projects, setProjects] = useState(arrayOfProjects);
@@ -90,25 +90,25 @@ function Projects() {
                   style={{ opacity: +isSeeDetails }}
                   initial={{opacity: +isSeeDetails}}
                   whileHover={{ opacity: [+isSeeDetails, 1] }}
-                  transition={{duration: 0.4 , ease: "easeInOut"}}
+                  transition={{duration: 0.4, delay: 0.5 , ease: "easeInOut" }}
                 >
                 <h1>{project.name}</h1>                  
                 <BoxIconsHover>
                   <motion.a 
                     href={project.repository}
                     target="_blank"
-                    whileInView={{scale: [0,1], opacity: [0, 1]}}
-                    whileHover={{scale: [1, 1.1]}}
-                    transition={{duration: 0.3}}
+                    whileInView={{scale: [0,1], opacity: [0, 1] }}
+                    whileHover={{scale: [1, 1.1] }}
+                    transition={{duration: 0.3 }}
                   >
                     <FiGithub />
                   </motion.a>                    
                   <motion.a 
                     href={project.url}
                     target="_blank"
-                    whileInView={{scale: [0,1], opacity: [0, 1]}}
-                    whileHover={{scale: [1, 1.1]}}
-                    transition={{duration: 0.3}}
+                    whileInView={{scale: [0,1], opacity: [0, 1] }}
+                    whileHover={{scale: [1, 1.1] }}
+                    transition={{duration: 0.3 }}
                   >
                     <FiEye />
                   </motion.a>
