@@ -1,5 +1,5 @@
-import { arrayOfSocialMidias } from "../services/data"
-import { BoxCopyRight, BoxFollowMe, BoxSocialIcons, ContainerFooter } from "../styles/Footer"
+import { arrayOfSocialMidias } from "../services/data";
+import { BoxCopyRight, BoxFollowMe, BoxSocialIcons, ContainerFooter } from "../styles/Footer";
 
 function Footer() {
   return (

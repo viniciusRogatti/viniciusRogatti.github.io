@@ -4,12 +4,12 @@ import { navFilterCategory } from '../services/data';
 import { ButtonStyle } from '../styles/Buttons/ButtonStyle';
 import { arrayOfProjects } from '../services/data';
 import { Container } from '../styles/Container';
-import { BoxHoverLayer, BoxIconsHover, BoxProjects, CardProject } from '../styles/Projects'
+import { BoxHoverLayer, BoxIconsHover, BoxProjects, CardProject } from '../styles/Projects';
 import { BoxButtons } from '../styles/Skills';
 import { ChevronLeftIcon } from '../styles/icons';
 import { BoxCarrousel, Carrousel } from '../styles/Carrousel';
-import { motion } from 'framer-motion'
-import { FiGithub, FiEye } from 'react-icons/fi'
+import { motion } from 'framer-motion';
+import { FiGithub, FiEye } from 'react-icons/fi';
 
 function Projects() {
   const [projects, setProjects] = useState(arrayOfProjects);
