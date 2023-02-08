@@ -23,10 +23,12 @@ function Footer() {
               ))
             }
         </BoxSocialIcons>
-      <p>Documentação desse <a href="https://github.com/viniciusRogatti" target="_blank" rel="noreferrer">portfolio</a></p>
+
+        <p>Documentação desse <a href="https://github.com/viniciusRogatti/viniciusRogatti.github.io" target="_blank" rel="noreferrer">portfolio</a></p>
+
       </BoxFollowMe>
     </ContainerFooter>
   )
 }
 
-export default Footer
+export default Footer;

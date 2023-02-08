@@ -90,25 +90,25 @@ function Projects() {
                   style={{ opacity: +isSeeDetails }}
                   initial={{opacity: +isSeeDetails}}
                   whileHover={{ opacity: [+isSeeDetails, 1] }}
-                  transition={{duration: 0.4 , ease: "easeInOut"}}
+                  transition={{duration: 0.4, delay: 0.5 , ease: "easeInOut" }}
                 >
                 <h1>{project.name}</h1>                  
                 <BoxIconsHover>
                   <motion.a 
                     href={project.repository}
                     target="_blank"
-                    whileInView={{scale: [0,1], opacity: [0, 1]}}
-                    whileHover={{scale: [1, 1.1]}}
-                    transition={{duration: 0.3}}
+                    whileInView={{scale: [0,1], opacity: [0, 1] }}
+                    whileHover={{scale: [1, 1.1] }}
+                    transition={{duration: 0.3 }}
                   >
                     <FiGithub />
                   </motion.a>                    
                   <motion.a 
                     href={project.url}
                     target="_blank"
-                    whileInView={{scale: [0,1], opacity: [0, 1]}}
-                    whileHover={{scale: [1, 1.1]}}
-                    transition={{duration: 0.3}}
+                    whileInView={{scale: [0,1], opacity: [0, 1] }}
+                    whileHover={{scale: [1, 1.1] }}
+                    transition={{duration: 0.3 }}
                   >
                     <FiEye />
                   </motion.a>

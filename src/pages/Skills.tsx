@@ -51,7 +51,7 @@ function Skills() {
       </BoxButtons>
       <BoxSkills
         whileInView={{x: [-250, 0], opacity: [0, 1]}}
-        transition={{duration: 2, delay: 0.4, ease: "easeInOut"}}
+        transition={{duration: 2, delay: 0.5 }}
       >
         { skills.map(skill => <CardSkill key={`skill-${skill.id}`} skill={skill}/>) }
       </BoxSkills>
