@@ -8,6 +8,7 @@ import cardImage1 from '../assets/images/card1.jpg';
 import trybeTunesImg from '../assets/images/trybe-tunes.png';
 import appRecipesImg from '../assets/images/recipes-app.png';
 import solarSystemImg from '../assets/images/solar-system.png';
+import triviaReact from '../assets/images/trivia-react.png';
 
 export const navLinks = ["Inicio", "Sobre", "Skills", "Projetos", "Contato"];
 
@@ -89,9 +90,9 @@ export const arrayOfProjects = [
   },
   {
     id: 'card-project-2',
-    img: cardImage1,
-    name: "APP project 2",
-    url: '',
+    img: triviaReact,
+    name: "Trivia ReactRedux",
+    url: 'https://viniciusrogatti.github.io/project-trivia-react-redux/',
     repository: '',
     category: "web"
   },

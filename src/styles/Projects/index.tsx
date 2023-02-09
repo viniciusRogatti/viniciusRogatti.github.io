@@ -62,6 +62,12 @@ const CardProject = styled.div`
   flex: none;
   img {
     border-radius: 12px;
+    width: 100%;
+    height: 80%;
+
+    @media screen and (max-width: 700px) {
+      height: 60%;
+  }
   }
 
   @media screen and (max-width: 700px) {
