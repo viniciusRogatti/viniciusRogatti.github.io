@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.js": "/static/js/main.5d3652b9.js",
+    "main.js": "/static/js/main.12a6b204.js",
     "static/media/solar-system.png": "/static/media/solar-system.9a6a6557a5b01cba4832.png",
     "static/media/trybe-tunes.png": "/static/media/trybe-tunes.8ddc0fb9da3fd079e1a7.png",
-    "static/media/recipes-app.png": "/static/media/recipes-app.8518a6acfc35b83762c7.png",
+    "static/media/trivia-react.png": "/static/media/trivia-react.f0e1d920ab0d8f27b06a.png",
+    "static/media/recipes-app.png": "/static/media/recipes-app.a8f2ea517598e8ef93c7.png",
     "static/media/card1.jpg": "/static/media/card1.bf83e44b4c8c924a0993.jpg",
     "static/media/me.jpeg": "/static/media/me.15a73cbbb34fb88a62d9.jpeg",
     "static/media/styled-components.png": "/static/media/styled-components.da090b22905ecd34b164.png",
@@ -31,9 +32,9 @@
     "static/media/moon-icon.svg": "/static/media/moon-icon.b8cc8d678254073bb347d1319be9cdbd.svg",
     "static/media/linkedin-3.svg": "/static/media/linkedin-3.27a3f479ca1bbb0ceef19e395081fb94.svg",
     "static/media/npm.svg": "/static/media/npm.29005d7ddce8440984ae24d105cbe678.svg",
-    "main.5d3652b9.js.map": "/static/js/main.5d3652b9.js.map"
+    "main.12a6b204.js.map": "/static/js/main.12a6b204.js.map"
   },
   "entrypoints": [
-    "static/js/main.5d3652b9.js"
+    "static/js/main.12a6b204.js"
   ]
 }
