@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/static/js/main.12a6b204.js",
+    "main.js": "/static/js/main.674ffe00.js",
     "static/media/solar-system.png": "/static/media/solar-system.9a6a6557a5b01cba4832.png",
     "static/media/trybe-tunes.png": "/static/media/trybe-tunes.8ddc0fb9da3fd079e1a7.png",
     "static/media/trivia-react.png": "/static/media/trivia-react.f0e1d920ab0d8f27b06a.png",
@@ -32,9 +32,9 @@
     "static/media/moon-icon.svg": "/static/media/moon-icon.b8cc8d678254073bb347d1319be9cdbd.svg",
     "static/media/linkedin-3.svg": "/static/media/linkedin-3.27a3f479ca1bbb0ceef19e395081fb94.svg",
     "static/media/npm.svg": "/static/media/npm.29005d7ddce8440984ae24d105cbe678.svg",
-    "main.12a6b204.js.map": "/static/js/main.12a6b204.js.map"
+    "main.674ffe00.js.map": "/static/js/main.674ffe00.js.map"
   },
   "entrypoints": [
-    "static/js/main.12a6b204.js"
+    "static/js/main.674ffe00.js"
   ]
 }
