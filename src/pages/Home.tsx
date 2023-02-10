@@ -50,7 +50,7 @@ function Home() {
           variants={moveVariants}
           animate="animation"
         >
-          connect with me
+          Entre em contato
         </ButtonStyle>
 
       </BoxInfo>
