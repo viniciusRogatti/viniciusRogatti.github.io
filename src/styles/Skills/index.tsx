@@ -23,7 +23,7 @@ const BoxSkills = styled(motion.div)`
   }
 `;
 
-const CardSkills = styled.div`
+const CardSkills = styled(motion.div)`
   max-width: 200px;
   color: ${props => props.theme.secondaryColor};
   display: flex;
