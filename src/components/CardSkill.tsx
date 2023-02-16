@@ -10,7 +10,7 @@ interface Skill {
 
 function CardSkill({ skill }: { skill: Skill }) {
   return (
-    <CardSkills key={`card-id-${skill.id}`}>
+    <CardSkills layout key={`card-id-${skill.id}`}>
       <p>{skill.name}</p>
       <skill.svg />
     </CardSkills>
