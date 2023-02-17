@@ -5,6 +5,7 @@ import { arrayOfSkills, navFilters } from '../services/data';
 import { ButtonStyle } from '../styles/Buttons/ButtonStyle';
 import { Container } from '../styles/Container';
 import { BoxButtons, BoxSkills } from '../styles/Skills';
+import { AnimatePresence } from "framer-motion"
 
 function Skills() {
   const [filter, setFilter] = useState(3);
@@ -35,6 +36,7 @@ function Skills() {
       <BoxButtons
         initial={{opacity: 0}}
         whileInView={{y: [-50, 0], opacity: 1}}
+        transition={{ duration: 0.5, delay: 0.3,  ease: 'easeOut' }}
       >
 
         {navFilters.map(fil => (
@@ -50,7 +52,9 @@ function Skills() {
 
       </BoxButtons>
       <BoxSkills layout>
-        { skills.map(skill => <CardSkill key={`skill-${skill.id}`} skill={skill}/>) }
+        <AnimatePresence>
+          { skills.map(skill => <CardSkill key={`skill-${skill.id}`} skill={skill}/>) }
+        </AnimatePresence>
       </BoxSkills>
 
     </Container>
